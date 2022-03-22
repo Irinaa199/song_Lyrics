@@ -1,7 +1,16 @@
+import 'package:class_application_2/data/lyrics.dart';
+
 const songTitles = [
-  'Finger Family'
-      'Baby Shark',
+  'Mary mad little lamb',
+      'five little fingers',
+  'little piggy',
+      'Row row row your boat',
   'Baa baa black sheep',
-  'Five little monkeys',
-  'Row row row your boat',
 ];
+const idToLyrics = {
+  0: maryHadLittleLamb,
+  1: fiveLttleFingers,
+  2: thisLittlePig,
+  3: rowRowRowBoat,
+  4: baaBaaBlackSheep,
+};

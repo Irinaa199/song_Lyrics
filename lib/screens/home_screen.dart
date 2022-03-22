@@ -1,7 +1,7 @@
 import 'package:class_application_2/data/songs.dart';
 import 'package:flutter/material.dart';
 
-import 'Lyrics_screen.dart';
+import 'lyrics_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -35,6 +35,8 @@ class SongList extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder:(context) =>LyricsScreen(
+                    id:index,
+
                     songTitle: songTitles[index]
                     ),
                   ),
